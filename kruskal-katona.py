@@ -20,7 +20,6 @@ def compute_del_k(expansion):
     return res
 
 if __name__ == "__main__":
-    print(f"Arguments count: {len(sys.argv)}")
     n = int(sys.argv[1])
     k = int(sys.argv[2])
     expansion = compute_repr(n,k)
